@@ -1,0 +1,8 @@
+include ':app'
+include ':uniplugin_module'
+include ':uniplugin_component'
+include ':uniplugin_richalert'
+include ':uts-toast'
+include ':leruge_test'
+include ':leruge_demo'
+include ':leruge_dahua'
