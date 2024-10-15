@@ -1,7 +1,0 @@
-include ':app'
-include ':uniplugin_module'
-include ':uniplugin_component'
-include ':uniplugin_richalert'
-include ':uts-toast'
-include ':native_dahua'
-include ':leruge_dahua'
