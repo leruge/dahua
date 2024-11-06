@@ -1,3 +1,7 @@
-install:
-  - FILE="-Dfile=leruge_dahua-1.0.4.aar"
-  - mvn install:install-file $FILE -DgroupId=com.github.leruge -DartifactId=leruge_dahua -Dversion=1.0.4 -Dpackaging=aar -DpomFile=pom.xml
+before_install:
+  - sdk install java 11.0.10-open
+  - sdk use java 11.0.10-open
+
+jdk:
+  - openjdk11
+
